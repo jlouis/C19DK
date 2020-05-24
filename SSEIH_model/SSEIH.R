@@ -29,7 +29,7 @@ times <- seq(ResDK,endTimes,1)
 ## We have asked if it can be shared and are awaiting the answer.
 
 # load hospital data
-mdt <- fread(file = "data_for_kaare2.csv")
+mdt <- fread(file = "data_for_kaare_na.csv")
 mdt[Event=="Hospitalised",Event:="HospitalisedCase"]
 
 mdt$Date <- as.Date(mdt$Date)
