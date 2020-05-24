@@ -3,7 +3,7 @@
 popDK <- data.frame(lt60=c(1435432,590495,880891,991793,423790),
                     ge60=c(410591,246864,342214,334547,166146),
                     region=c("Hovedstaden","Zealand","Syddanmark",
-                             "Midtjylland","Nordjylland")) 
+                             "Midtjylland","Nordjylland"))
 regions=c("Hovedstaden","Zealand","Syddanmark",
           "Midtjylland","Nordjylland")
 
@@ -48,7 +48,7 @@ input$r.pI2R1 <- c(0.77, 0.97) # Sandsynlighed for rask efter indlæggelse
 input$rc.pI2R1 <- c(0.5, 1) # Sandsynlighed for rask efter indlæggelse -change 1.april
 input$r.pI3R1 <- c(.7, .95) # Sandsynlighed for at overleve ICU
 input$r.mu31 <-c(14,28) # Dage på ICU før død
-input$r.recI11 <- c(4,6) #Antal dage før rask udenfor hospital
+input$r.recI11 <- c(4,6) # Antal dage før rask udenfor hospital
 input$r.recI21 <- c(5,9) # Antal dage på hospital før udskrivelse
 input$r.recI31 <- c(14,28) # Antal dage på ICU før udskrivelse
 # Over 60:
