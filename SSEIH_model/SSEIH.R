@@ -213,7 +213,7 @@ feRet <- foreach(scenario=idScenarier, .packages = c("data.table", "deSolve")) %
 for (j in 1:5)
 {
 
-  set.seed(1234)
+  set.seed(1729+2*3+5*scenario+7*j)
 
   for (i in 1:nrep)
   {
